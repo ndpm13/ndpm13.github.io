@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head>
+  <title>naseem&#39;s portfolio</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="naseem&#39;s portfolio" />
+<meta name="author" content="Naseem Chettah" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.140.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+    
+  
+  <link href="/main.min.9ec7ac1508530bf10fbf7ed7e29fe575054edfd19692fdf9d3157656755f4da0.css" rel="stylesheet" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://ch-naseem.com/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+  </div>
+  <div>
+  <a class="mr-4" href="/search"><i class="fas fa-search"></i></i></a>
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</div>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">Anthropic&#39;s Computer Control, Character.AI Lawsuit, and Bitcoin Creator Mystery</h1>
+  <p class="mb-1">October 24, 2024</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="anthropic-unveils-computer-use-feature-for-claude-35-sonnet">Anthropic Unveils Computer Use Feature for Claude 3.5 Sonnet</h2>
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ODaHJzOyVCQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Anthropic has announced a groundbreaking development in AI capabilities with the release of an upgraded Claude 3.5 Sonnet model that can directly interact with computers. This new &ldquo;computer use&rdquo; feature, released in public beta, allows the AI to perform tasks like moving a cursor, clicking buttons, and typing text - essentially operating a computer like a human would.</p>
+<p>The company also introduced Claude 3.5 Haiku, a new model that matches the performance of the previous Claude 3 Opus while maintaining similar speed and cost efficiency. The upgraded Claude 3.5 Sonnet has shown significant improvements in coding capabilities, with performance on SWE-bench Verified increasing from 33.4% to 49.0%.</p>
+<p>While this advancement opens up new possibilities for automation and productivity, Anthropic acknowledges potential risks and has implemented various safeguards. The company has developed new classifiers to identify potential misuse and has put measures in place to monitor election-related activities.</p>
+<p>Several companies, including Asana, Canva, DoorDash, and Replit, are already exploring applications of this technology. However, security experts have raised concerns about potential misuse, particularly in the context of automated cyber attacks.</p>
+<p><strong>sources:</strong><br>
+<a href="https://www.anthropic.com/news/3-5-models-and-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a><br>
+<a href="https://arstechnica.com/ai/2024/10/anthropic-publicly-releases-ai-tool-that-can-take-over-the-users-mouse-cursor/">Anthropic publicly releases AI tool that can take over the user’s mouse cursor</a><br>
+<a href="https://www.theregister.com/2024/10/24/anthropic_claude_model_can_use_computers/">Anthropic&rsquo;s latest Claude model can interact with computers – what could go wrong?</a></p>
+<h2 id="characterai-faces-lawsuit-following-teens-death">Character.AI Faces Lawsuit Following Teen&rsquo;s Death</h2>
+<p><img src="/images/blogs/6/2.jpg" alt=""></p>
+<p>In a tragic development, Character.AI, its founders, and Google are facing a lawsuit following the death of a 14-year-old user. The lawsuit, filed by Megan Garcia, the mother of Sewell Setzer III, alleges wrongful death, negligence, and product liability.</p>
+<p>The complaint states that Setzer developed an unhealthy attachment to AI chatbots on the platform, particularly one modeled after the Game of Thrones character Daenerys Targaryen. The lawsuit claims the platform lacked adequate safety measures while being marketed to children.</p>
+<p>In response to the incident, Character.AI has implemented several changes:</p>
+<ul>
+<li>Raised the age requirement from 12 to 17+</li>
+<li>Added measures to reduce sensitive content exposure for minors</li>
+<li>Improved detection and intervention for harmful chat sessions</li>
+<li>Added disclaimers reminding users that AI characters are not real people</li>
+<li>Implemented suicide prevention resources</li>
+</ul>
+<p>The case raises important questions about AI safety, particularly regarding platforms that create highly engaging, personalized AI characters that might blur the line between fantasy and reality for vulnerable users.</p>
+<p><strong>sources:</strong><br>
+<a href="https://www.theverge.com/2024/10/23/24277962/character-ai-google-wrongful-death-lawsuit">Character.AI and Google sued after chatbot-obsessed teen’s death</a><br>
+<a href="https://arstechnica.com/tech-policy/2024/10/chatbots-posed-as-therapist-and-adult-lover-in-teen-suicide-case-lawsuit-says/">Chatbot that caused teen’s suicide is now more dangerous for kids, lawsuit says</a></p>
+<h2 id="the-ongoing-mystery-of-bitcoins-creator">The Ongoing Mystery of Bitcoin&rsquo;s Creator</h2>
+<p><img src="/images/blogs/6/3.jpg" alt=""></p>
+<p>A new HBO documentary, &ldquo;Money Electric: The Bitcoin Mystery,&rdquo; has sparked fresh discussion about the identity of Bitcoin&rsquo;s creator, Satoshi Nakamoto. The documentary suggests that Canadian developer Peter Todd might be Satoshi, though Todd has categorically denied these claims.</p>
+<p>The evidence presented includes forum interactions from 2010 where Todd appeared to be &ldquo;finishing Satoshi&rsquo;s sentences&rdquo; and similarities in writing patterns. However, Todd has dismissed these claims as &ldquo;ludicrous&rdquo; and has gone into hiding due to concerns about personal safety and harassment.</p>
+<p>The search for Satoshi has previously implicated various figures in the crypto world, including Hal Finney, Adam Back, and Nick Szabo, but no conclusive proof has emerged for any candidate. Many in the Bitcoin community argue that Satoshi&rsquo;s anonymity has been beneficial for Bitcoin&rsquo;s development, allowing it to evolve through community consensus rather than under the influence of a single leader.</p>
+<p><strong>source:</strong><br>
+<a href="https://www.wired.com/story/unmasking-bitcoin-creator-satoshi-nakamoto-again/">Unmasking Bitcoin Creator Satoshi Nakamoto—Again</a><br>
+<a href="https://arstechnica.com/tech-policy/2024/10/peter-todd-in-hiding-after-being-unmasked-as-bitcoin-creator/">Peter Todd in hiding after being “unmasked” as bitcoin creator</a></p>
+
+</div>
+</div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post5/"
+      title="TikTok&#39;s Ban Challenge, Drake&#39;s AI Takedown, Tesla&#39;s Autopilot Probe and Microsoft&#39;s Coding Nostalgia"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post7/"
+      title="Google&#39;s Russian Fines, DDR5 Records, and Windows AI Future"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer
+  class="text-sm text-center border-t border-gray-300 dark:border-gray-700  py-6 ">
+  <p class="markdownify">© 2024 Naseem · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+  <p ></p>
+</footer>
+
+    
+  </body>
+</html>

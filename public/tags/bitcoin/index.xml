@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitcoin on </title>
+    <link>https://ch-naseem.com/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ch-naseem.com/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic&#39;s Computer Control, Character.AI Lawsuit, and Bitcoin Creator Mystery</title>
+      <link>https://ch-naseem.com/blog/post6/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://ch-naseem.com/blog/post6/</guid>
+      <description>&lt;h2 id=&#34;anthropic-unveils-computer-use-feature-for-claude-35-sonnet&#34;&gt;Anthropic Unveils Computer Use Feature for Claude 3.5 Sonnet&lt;/h2&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ODaHJzOyVCQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Anthropic has announced a groundbreaking development in AI capabilities with the release of an upgraded Claude 3.5 Sonnet model that can directly interact with computers. This new &amp;ldquo;computer use&amp;rdquo; feature, released in public beta, allows the AI to perform tasks like moving a cursor, clicking buttons, and typing text - essentially operating a computer like a human would.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

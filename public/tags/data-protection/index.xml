@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-Protection on </title>
+    <link>https://ch-naseem.com/tags/data-protection/</link>
+    <description>Recent content in Data-Protection on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ch-naseem.com/tags/data-protection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Latest on AI, Privacy, and Security</title>
+      <link>https://ch-naseem.com/blog/post4/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ch-naseem.com/blog/post4/</guid>
+      <description>&lt;h2 id=&#34;google-open-sources-large-language-model-gemma&#34;&gt;Google Open Sources Large Language Model Gemma&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ch-naseem.com/images/blogs/4/1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Google recently open sourced Gemma, a large language model with similarities to the company&amp;rsquo;s Gemini family of models. Gemma comes in two sizes - 2 billion and 7 billion parameters - and is optimized to run efficiently across devices from mobile to cloud TPUs.&lt;/p&gt;&#xA;&lt;p&gt;This is a big move by Google to spur collaboration and progress in AI research through an open model. It provides some competition to closed models like OpenAI&amp;rsquo;s GPT-3. Gemma is available on GitHub and through Google Cloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Major Developments in Cybersecurity and Privacy</title>
+      <link>https://ch-naseem.com/blog/post3/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ch-naseem.com/blog/post3/</guid>
+      <description>&lt;h2 id=&#34;european-court-of-human-rights-rules-against-weakening-encryption&#34;&gt;European Court of Human Rights Rules Against Weakening Encryption&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ch-naseem.com/images/blogs/3/1.jpg&#34; alt=&#34;&#34;&gt;&#xA;The European Court of Human Rights (ECHR) issued a landmark ruling that bans governments from forcing companies to weaken end-to-end encryption for mass surveillance purposes. The court held that while authorities can monitor suspects&amp;rsquo; communications without undermining wider security, general encryption backdoors present too great a privacy risk.&lt;/p&gt;&#xA;&lt;p&gt;The decision deals a major blow to controversial EU legislation proposing &amp;ldquo;client-side scanning&amp;rdquo; backdoors that would have let police search digital devices for illegal content. Critics argue this chat control plan would have made all European encrypted communications fundamentally insecure. Digital rights groups have hailed the ECHR judgement as an unprecedented win for privacy in the region.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

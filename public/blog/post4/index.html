@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head>
+  <title>naseem&#39;s portfolio</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="naseem&#39;s portfolio" />
+<meta name="author" content="Naseem Chettah" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.140.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+    
+  
+  <link href="/main.min.9ec7ac1508530bf10fbf7ed7e29fe575054edfd19692fdf9d3157656755f4da0.css" rel="stylesheet" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://ch-naseem.com/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+  </div>
+  <div>
+  <a class="mr-4" href="/search"><i class="fas fa-search"></i></i></a>
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</div>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">The Latest on AI, Privacy, and Security</h1>
+  <p class="mb-1">February 24, 2024</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="google-open-sources-large-language-model-gemma">Google Open Sources Large Language Model Gemma</h2>
+<p><img src="/images/blogs/4/1.jpg" alt=""></p>
+<p>Google recently open sourced Gemma, a large language model with similarities to the company&rsquo;s Gemini family of models. Gemma comes in two sizes - 2 billion and 7 billion parameters - and is optimized to run efficiently across devices from mobile to cloud TPUs.</p>
+<p>This is a big move by Google to spur collaboration and progress in AI research through an open model. It provides some competition to closed models like OpenAI&rsquo;s GPT-3. Gemma is available on GitHub and through Google Cloud.</p>
+<p><strong>source:</strong> <a href="https://news.itsfoss.com/google-gemma/">We needed Google to enter the Open-Source AI Space, and it happened!</a></p>
+<h2 id="reddit-selling-user-content-to-ai-company">Reddit Selling User Content to AI Company</h2>
+<p><img src="/images/blogs/4/2.jpg" alt=""></p>
+<p>Reports emerged that Reddit signed a deal to sell user content to an AI company for around $60 million annually. This raised concerns around monetizing user data without explicit consent.</p>
+<p>While platforms have rights over content shared, this highlights the lack of regulations around AI access to data. Users have limited power here unless backed by community uproar. It presents a privacy risk and ethical questions around AI training data practices.</p>
+<p><strong>source:</strong> <a href="https://news.itsfoss.com/reddit-selling-user-content/">Uh-Oh! Reddit Agrees to Sell User Content to an AI Company!</a></p>
+<h2 id="ftc-fines-avast-165-million-for-selling-user-data">FTC Fines Avast $16.5 Million for Selling User Data</h2>
+<p><img src="/images/blogs/4/3.jpg" alt=""></p>
+<p>The FTC fined antivirus company Avast $16.5 million for selling user browsing data to advertisers despite claims of protecting privacy.</p>
+<p>Through Avast&rsquo;s browser extensions, it collected detailed browsing data and searched terms which it sold through its Jumpshot subsidiary without properly notifying users. This violated user trust and consent.</p>
+<p>The FTC banned this data selling practice and required informing affected users. It underscores deceptive privacy practices and need for transparency in data collection.</p>
+<p><strong>source:</strong> <a href="https://thehackernews.com/2024/02/ftc-slams-avast-with-165-million-fine.html">FTC Slams Avast with $16.5 Million Fine for Selling Users&rsquo; Browsing Data</a></p>
+
+</div>
+</div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post3/"
+      title="Major Developments in Cybersecurity and Privacy"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post5/"
+      title="TikTok&#39;s Ban Challenge, Drake&#39;s AI Takedown, Tesla&#39;s Autopilot Probe and Microsoft&#39;s Coding Nostalgia"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer
+  class="text-sm text-center border-t border-gray-300 dark:border-gray-700  py-6 ">
+  <p class="markdownify">© 2024 Naseem · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+  <p ></p>
+</footer>
+
+    
+  </body>
+</html>

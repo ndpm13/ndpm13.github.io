@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head>
+  <title>naseem&#39;s portfolio</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="naseem&#39;s portfolio" />
+<meta name="author" content="Naseem Chettah" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.140.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+    
+  
+  <link href="/main.min.9ec7ac1508530bf10fbf7ed7e29fe575054edfd19692fdf9d3157656755f4da0.css" rel="stylesheet" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://ch-naseem.com/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+  </div>
+  <div>
+  <a class="mr-4" href="/search"><i class="fas fa-search"></i></i></a>
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</div>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">Major Developments in Cybersecurity and Privacy</h1>
+  <p class="mb-1">February 17, 2024</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="european-court-of-human-rights-rules-against-weakening-encryption">European Court of Human Rights Rules Against Weakening Encryption</h2>
+<p><img src="/images/blogs/3/1.jpg" alt="">
+The European Court of Human Rights (ECHR) issued a landmark ruling that bans governments from forcing companies to weaken end-to-end encryption for mass surveillance purposes. The court held that while authorities can monitor suspects&rsquo; communications without undermining wider security, general encryption backdoors present too great a privacy risk.</p>
+<p>The decision deals a major blow to controversial EU legislation proposing &ldquo;client-side scanning&rdquo; backdoors that would have let police search digital devices for illegal content. Critics argue this chat control plan would have made all European encrypted communications fundamentally insecure. Digital rights groups have hailed the ECHR judgement as an unprecedented win for privacy in the region.</p>
+<p><strong>source:</strong> <a href="https://www.eureporter.co/world/human-rights-category/european-court-of-human-rights-echr/2024/02/14/european-court-of-human-rights-bans-weakening-of-secure-end-to-endencryption-the-end-of-eus-chat-control-csar-mass-surveillance-plans/">European Court of Human Rights bans weakening of secure end-to-endencryption - the end of EU‘s chat control CSAR mass surveillance plans?</a></p>
+<h2 id="india-moves-to-block-protonmail-after-bomb-threat">India Moves to Block ProtonMail After Bomb Threat</h2>
+<p><img src="/images/blogs/3/2.jpg" alt="Image Credit: Harish Jonnalagadda / Android Central">
+The Indian government ordered the encrypted email provider ProtonMail to be blocked nationwide after unknown actors used it to email hoax bomb threats to schools in Chennai. While the perpetrators remain at large, authorities moved to restrict access to the Swiss-based service because its end-to-end encryption makes tracing messages impossible.</p>
+<p>Digital rights organizations have accused India of overreach by targeting an essential communication tool, not the criminals abusing it. ProtonMail denies any wrongdoing, but is working urgently with Indian officials to get the block rescinded. The case follows earlier local bans on virtual private networks and encrypted messaging apps amid wider government efforts against online anonymity.</p>
+<p><strong>source:</strong> <a href="https://www.androidcentral.com/apps-software/indian-government-moves-to-ban-protonmail-after-bomb-threat">Indian government moves to ban ProtonMail after bomb threat</a></p>
+<h2 id="spacex-to-de-orbit-100-starlink-satellites">SpaceX to De-Orbit 100 Starlink Satellites</h2>
+<p><img src="/images/blogs/3/3.jpg" alt="Image Credits: Getty Images">
+SpaceX has proactively announced plans to decommission almost 100 early Starlink internet satellites that have an unspecific design flaw that could cause them to fail later. Although the satellites currently function properly, SpaceX determined there is an increased long-term probability of losing communication or control over them as they age on orbit.</p>
+<p>Rather than wait years to see if issues emerge, SpaceX will deliberately deorbit the impacted satellites over the next 6 months before they can contribute to the growing space debris problem. Still, with thousands more Starlink satellites active and awaiting launch, user internet service will be unaffected by the phase out. Experts applaud the voluntary action as responsible stewardship.</p>
+<p><strong>source:</strong> <a href="https://techcrunch.com/2024/02/14/spacex-will-deorbit-100-starlink-satellites-with-unidentified-flaw/">SpaceX will de-orbit 100 Starlink satellites with unidentified flaw</a></p>
+<h2 id="bmw-data-exposure-highlights-cloud-misconfigurations">BMW Data Exposure Highlights Cloud Misconfigurations</h2>
+<p><img src="/images/blogs/3/4.jpg" alt="Image Credits: Emanuele Cremaschi / Contributor / Getty Images">
+Security researchers discovered that automaker BMW inadvertently left an internal cloud data storage bucket configured for public access. The exposed bucket contained highly sensitive credentials, certificates, access tokens, keys related to various BMW IT systems and cloud services.</p>
+<p>While BMW quickly privatized the storage bucket once notified of the mistake, security analysts note the company should have also changed the revealed passwords and revoked the leaked credentials. As software increasingly moves to the cloud, simple but dangerous configuration errors like this can lead to huge data leaks. It follows a similar major Mercedes-Benz data exposure last month.</p>
+<p><strong>source:</strong> <a href="https://techcrunch.com/2024/02/14/bmw-security-lapse-exposed-sensitive-company-information-researcher-finds/">BMW security lapse exposed sensitive company information, researcher finds</a></p>
+
+</div>
+</div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post2/"
+      title="The Grim Reality of Tech Layoffs in 2024"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post4/"
+      title="The Latest on AI, Privacy, and Security"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer
+  class="text-sm text-center border-t border-gray-300 dark:border-gray-700  py-6 ">
+  <p class="markdownify">© 2024 Naseem · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+  <p ></p>
+</footer>
+
+    
+  </body>
+</html>

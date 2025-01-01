@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head>
+  <title>naseem&#39;s portfolio</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="naseem&#39;s portfolio" />
+<meta name="author" content="Naseem Chettah" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.140.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+    
+  
+  <link href="/main.min.9ec7ac1508530bf10fbf7ed7e29fe575054edfd19692fdf9d3157656755f4da0.css" rel="stylesheet" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://ch-naseem.com/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+  </div>
+  <div>
+  <a class="mr-4" href="/search"><i class="fas fa-search"></i></i></a>
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</div>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">The Latest on AI and Society</h1>
+  <p class="mb-1">February 3, 2024</p>
+  <p>&mdash;</p>
+</div>
+<div class="content">
+  <h2 id="pope-francis-calls-for-international-ai-treaty">Pope Francis Calls for International AI Treaty</h2>
+<p><img src="/images/blogs/1/1.jpg" alt="">
+Earlier this week, Pope Francis released his annual World Day of Peace message, focused this year on artificial intelligence (AI) and peace. The pope called for the global community to work together to adopt a binding international treaty regulating the development and use of AI.</p>
+<p>Francis acknowledged the impressive achievements of AI, but also highlighted the risks, like increased inequality and loss of jobs. He emphasized the need for AI systems to uphold human dignity and rights. The pope warned about the use of AI for surveillance, manipulation, and autonomous weapons.</p>
+<p>Francis argued that AI development must focus on serving the common good and integral human development. He said debates on AI regulation should include voices from the poor and marginalized. The pope also advocated for AI education to promote critical thinking and ethical development of algorithms.</p>
+<p><strong>source:</strong> <a href="https://www.vatican.va/content/francesco/en/messages/peace/documents/20231208-messaggio-57giornatamondiale-pace2024.html">Artificial Intelligence and Peace</a></p>
+<h2 id="deepfakes-of-taylor-swift-highlight-need-for-laws">Deepfakes of Taylor Swift Highlight Need for Laws</h2>
+<p><img src="/images/blogs/1/2.jpg" alt="">
+Recently, deepfake pornographic images and videos of pop star Taylor Swift spread widely online, viewed tens of millions of times. These illicit deepfakes grafted Swift&rsquo;s face onto another woman&rsquo;s body without consent.</p>
+<p>Lawyers said this massive Swift case reveals the need for stronger laws around deepfake porn, which is rising rapidly with easy-to-use apps. Nonconsensual deepfakes can enable harassment, manipulation, and reputational damage.</p>
+<p>Currently, the US lacks comprehensive federal laws banning deepfake pornography. Some states have laws against image misappropriation and cyberstalking that may apply. Legal experts say suing deepfake creators is challenging given anonymity and jurisdictional issues. They suggest legislation focused on deepfake producers and distributors could be more effective.</p>
+<p><strong>source:</strong> <a href="https://www.thehindu.com/sci-tech/technology/taylor-swift-and-deepfake-porn-whats-the-law/article67803415.ece">Taylor Swift and deepfake porn: What&rsquo;s the law?</a></p>
+<h2 id="study-finds-small-risk-from-ai-bioweapon-assistance">Study Finds Small Risk from AI Bioweapon Assistance</h2>
+<p><img src="/images/blogs/1/3.jpg" alt="">
+OpenAI conducted a study to evaluate whether AI models could meaningfully help bad actors create biological weapons. The study had 50 biology experts and 50 students complete tasks related to biothreat creation, with half just using internet resources and half also accessing AI.</p>
+<p>The study found a mild accuracy increase from AI access, but the effect wasn&rsquo;t statistically significant. However, some experts warn the study methodology may have underestimated AI risks, since public AI systems were used rather than unconstrained models.</p>
+<p>OpenAI said this research is an initial data point, and more work is needed on assessing AI catastrophic risks. They aim to develop rigorous methodologies and collaborate across the AI safety community. Nonetheless, lawmakers are increasingly concerned about AI potential to abet biological and cyber threats.</p>
+<p><strong>source:</strong> <a href="https://openai.com/research/building-an-early-warning-system-for-llm-aided-biological-threat-creation">Building an early warning system for LLM-aided biological threat creation</a></p>
+<h2 id="older-models-like-markov-chains-retain-instructional-value">Older Models Like Markov Chains Retain Instructional Value</h2>
+<p><img src="/images/blogs/1/4.jpg" alt="">
+With the rapid emergence of transformer language models, older techniques like Markov chains have fallen out of favor. However, Markov chains have pedagogical value for hands-on learning.</p>
+<p>Markov chains can model probabilistic sequences like text by analyzing transitional probabilities between textual units like words. Although modern neural networks are more performant, Markov chains offer full transparency into the underlying statistical calculations.</p>
+<p>Implementing Markov chains from scratch provides valuable experience with statistical and matrix computations. The modular process also builds intuition about how predictive models work under the hood. While research pushes forward, revisiting classic techniques grounds an understanding of the foundations.</p>
+<p><strong>source:</strong> <a href="https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models">Markov Chains are the Original Language Models</a></p>
+<h2 id="takeaways">Takeaways</h2>
+<ul>
+<li>
+<p>AI safety discussions are increasingly prominent, including high-level calls for international regulation.</p>
+</li>
+<li>
+<p>Deepfakes and AI-enabled information hazards raise complex legal and ethical dilemmas.</p>
+</li>
+<li>
+<p>Technical communities are developing methodologies for rigorous testing and open collaboration around AI risks.</p>
+</li>
+<li>
+<p>Revisiting old techniques sheds light on how new systems build on prior innovations.</p>
+</li>
+</ul>
+<p><img src="/images/blogs/1/5.jpg" alt="">
+AI&rsquo;s societal impacts remain highly complex, multifaceted, and challenging to forecast. But continued research, transparency, and cooperation can help guide progress in a responsible direction.</p>
+
+</div>
+</div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-left"></i>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post2/"
+      title="The Grim Reality of Tech Layoffs in 2024"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer
+  class="text-sm text-center border-t border-gray-300 dark:border-gray-700  py-6 ">
+  <p class="markdownify">© 2024 Naseem · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+  <p ></p>
+</footer>
+
+    
+  </body>
+</html>
