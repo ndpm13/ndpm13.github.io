@@ -78,14 +78,14 @@ params:
       - degree: B.T.S. in Computer Science
         college: INSFP M'sila
         dates: 2023 - 2025
-        thesis_title: "on it..."
+        thesis_title: "Design and implementation of an electronic medical records platform"
         thesis_url: "#"
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
       - title: Rhazes EMR
-        url: "https://github.com/RhazesEMR"
+        url: "https://rhazesemr.info"
         description: ...
       - title: The Oxidized Airport
         url: "https://github.com/ndpm13/oxidized-airport"
