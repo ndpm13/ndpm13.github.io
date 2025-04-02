@@ -46,6 +46,9 @@ params:
       - icon: fab fa-github
         url: "https://github.ch-naseem.com"
         title: GitHub
+      - icon: fa fa-code-branch fa-sm
+        url: "https://git.ch-naseem.com"
+        title: Code
       - icon: fab fa-monero
         url: "images/monero.png"
         title: Monero
