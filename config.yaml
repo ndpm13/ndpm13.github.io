@@ -26,8 +26,7 @@ params:
     name: "Naseem Chettah"
     tagline: IT Student
     location: "M'sila, Algeria"
-    photo: profile2.jpg
-    photo2: profile2.jpg
+    photo: profile.jpg
   social:
     title: Links
     list:
