@@ -24,7 +24,7 @@ params:
 
   profile:
     name: "Naseem Chettah"
-    tagline: IT Student
+    tagline: "Software Developer"
     location: "M'sila, Algeria"
     photo: profile.jpg
   social:
@@ -86,36 +86,31 @@ params:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Rhazes EMR
-        url: "https://rhazesemr.info"
-        description: ...
-      - title: The Oxidized Airport
-        url: "https://github.com/ndpm13/oxidized-airport"
-        description: a school project where I'll be using Tauri and ~~SurrealDB~~ PostgreSQL to create a nice application to book flights and airport stuff.
-      - title: Al Kindi
-        url: "https://github.com/ndpm13/Al-Kindi"
-        description: Al-Kindi Convertor is a simple app I wrote to help my classmates convert values in the numeric bases BIN, OCT, DEC and HEX.
+      - title: Noid Linux
+        url: "https://git.ch-naseem.com/noid-linux"
+        description: A Void Linux spin with custom XBPS repo and familiar package manager.
+      - title: Zap-rs
+        url: "https://git.ch-naseem.com/ndpm13/zap-rs"
+        description: Rust-based AppImage package manager inspired by [srevinsaju/zap](https://github.com/srevinsaju/zap)
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: Oracle DBMS
-        skillrating: 80
-      - skill: Desktop Applications (Tauri, C#, Delphi)
+      - skill: Rust Development
+        skillrating: 75
+      - skill: Linux Systems Administration
         skillrating: 85
-      - skill: Backend Development (LAMP, Golang)
-        skillrating: 60
-      - skill: Prompt Engineering
-        skillrating: 90
-      - skill: GNU/Linux Administration
+      - skill: Container Orchestration (Docker/Podman)
+        skillrating: 75
+      - skill: Database Management (PostgreSQL/SQL)
         skillrating: 70
-      - skill: Data Entry and Management
-        skillrating: 90
-      - skill: Document Formatting and Markup
+      - skill: CI/CD & DevOps
         skillrating: 70
-      - skill: Scripting (Rust, BASH)
-        skillrating: 90
+      - skill: Version Control (Git)
+        skillrating: 80
+      - skill: Cross-Platform Development (Tauri)
+        skillrating: 65
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
