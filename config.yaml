@@ -30,6 +30,12 @@ params:
   social:
     title: Links
     list:
+      - icon: fa fa-comments
+        url: "https://matrix.to/#/@ndpm13:ch-naseem.com"
+        title: Matrix
+      - icon: fa fa-rss
+        url: "/index.xml"
+        title: RSS
       - icon: fa fa-envelope
         url: "mailto:contact@ch-naseem.com"
         title: Email
