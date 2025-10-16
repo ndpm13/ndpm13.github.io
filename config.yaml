@@ -81,7 +81,7 @@ params:
         college: INSFP M'sila
         dates: 2023 - 2025
         thesis_title: "Design and implementation of an electronic medical records platform"
-        thesis_url: "#"
+        thesis_url: "/education/design_and_implementation_of_an_electronic_medical_records_platform.pdf"
   project:
     title: Projects
     icon: fas fa-project-diagram
