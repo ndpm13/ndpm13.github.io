@@ -1,0 +1,15 @@
+{{ define "main" }}
+<script>
+	NekoType = "black";
+</script>
+
+<h1 id="nl">
+	<script src="https://webneko.net/n20171213.js"></script>
+</h1>
+
+<div class="py-2 flex flex-col gap-1">
+	<h3 class="title-small">{{ .Title }}</h3>
+</div>
+
+<section>{{ .Content }}</section>
+{{ end }}
