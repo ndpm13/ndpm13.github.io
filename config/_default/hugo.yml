@@ -1,0 +1,39 @@
+baseURL: "https://ch-naseem.com/"
+copyright: "2024 - {year}" # To make 2007 - 2022. Just add before {year} example: 2007 - {year}
+languageCode: "en-US"
+defaultContentLanguage: "en"
+theme: "gruv-lowkey"
+title: "Naz's webpage"
+enableRobotsTXT: true
+summaryLength: 15
+
+pagination:
+  pagerSize: 5
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: true
+    noHl: false
+    style: "gruvbox"
+    tabWidth: 4
+
+params:
+  services:
+    - name: Forgejo
+      url: https://git.ch-naseem.com
+      icon: forgejo
+    - name: Owncast
+      url: https://stream.ch-naseem.com
+      icon: owncast
+    - name: Ferdium
+      url: https://ferdium.ch-naseem.com
+      icon: ferdium
