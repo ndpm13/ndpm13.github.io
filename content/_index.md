@@ -9,7 +9,7 @@ Where I code: [Github](https://github.ch-naseem.com/) | [Gitlab](https://gitlab.
 
 Stuff I'm working on:
 
-- [Noid Linux:](https://git.ch-naseem.com/noid-linux) A Void Linux spin with custom XBPS repo and familiar package manager.
+- [Noid Linux:](https://noid-linux.github.io) A Void Linux spin with custom XBPS repo and familiar package manager.
 
 #### Contact
 
