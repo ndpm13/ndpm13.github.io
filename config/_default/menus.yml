@@ -23,8 +23,8 @@ social:
     url: "https://linkedin.ch-naseem.com/"
     weight: 1
   - identifier: "github"
-    name: "GitHub"
-    url: "https://github.ch-naseem.com/"
+    name: "GitGud"
+    url: "https://gitgud.io/ndpm13/"
     weight: 2
   - identifier: "fediverse"
     name: "Fediverse"

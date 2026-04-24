@@ -5,7 +5,7 @@ draft: false
 
 My name is Naseem, and I am from Algeria! Welcome to my personal web page.
 
-Where I code: [Github](https://github.ch-naseem.com/) | [Gitlab](https://gitlab.com/ndpm13/) | [Codeberg](https://codeberg.org/ndpm13/) | [Self Hosted Forgejo](https://git.ch-naseem.com/ndpm13)
+Where I code: [GitGud](https://gitgud.io/ndpm13/) | [Github](https://github.ch-naseem.com/) | [Gitlab](https://gitlab.com/ndpm13/) | [Codeberg](https://codeberg.org/ndpm13/) | [Self Hosted Forgejo](https://git.ch-naseem.com/ndpm13)
 
 Stuff I'm working on:
 
