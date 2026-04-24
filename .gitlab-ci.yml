@@ -1,0 +1,80 @@
+variables:
+  # Application versions
+  DART_SASS_VERSION: 1.99.0
+  HUGO_VERSION: 0.160.0
+  # Git
+  GIT_DEPTH: 0
+  GIT_STRATEGY: clone
+  GIT_SUBMODULE_STRATEGY: recursive
+  # Time zone
+  TZ: Europe/Oslo
+
+image:
+  name: golang:1.26.1-bookworm
+
+pages:
+  stage: deploy
+  script:
+    - |
+      # Create directory for user-specific executable files
+      echo "Creating directory for user-specific executable files..."
+      mkdir -p "${HOME}/.local"
+
+      # Install utilities
+      echo "Installing utilities..."
+      apt-get update
+      apt-get install -y brotli xz-utils zstd
+
+      # Install Dart Sass
+      echo "Installing Dart Sass ${DART_SASS_VERSION}..."
+      curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+      tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+      rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+      export PATH="${HOME}/.local/dart-sass:${PATH}"
+
+      # Install Hugo
+      echo "Installing Hugo ${HUGO_VERSION}..."
+      curl -sLJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+      mkdir -p "${HOME}/.local/hugo"
+      tar -C "${HOME}/.local/hugo" -xf "hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+      rm "hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+      export PATH="${HOME}/.local/hugo:${PATH}"
+
+      # Install Bun
+      echo "Installing Node.js ${NODE_VERSION}..."
+      curl -fsSL https://bun.com/install | bash
+      export BUN_INSTALL="$HOME/.bun"
+      export PATH="$BUN_INSTALL/bin:$PATH"
+
+      # Verify installations
+      echo "Verifying installations..."
+      echo "Dart Sass: $(sass --version)"
+      echo "Go: $(go version)"
+      echo "Hugo: $(hugo version)"
+      echo "Bun: $(bun --version)"
+      echo "brotli: $(brotli --version)"
+      echo "xz: $(xz --version)"
+      echo "zstd: $(zstd --version)"
+
+      # Install Node.js dependencies
+      echo "Installing Node.js dependencies..."
+      [[ -f bun.lock ]] && bun install || true
+
+      # Configure Git
+      echo "Configuring Git..."
+      git config core.quotepath false
+
+      # Build site
+      echo "Building site..."
+      hugo --gc --minify --baseURL "${CI_PAGES_URL}"
+
+      # Compress published files
+      echo "Compressing published files..."
+      find public/ -type f -regextype posix-extended -regex '.+\.(css|html|js|json|mjs|svg|txt|xml)$' -print0 > files.txt
+      time xargs --null --max-procs=0 --max-args=1 brotli --quality=10 --force --keep < files.txt
+      time xargs --null --max-procs=0 --max-args=1 gzip -9 --force --keep < files.txt
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
