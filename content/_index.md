@@ -9,7 +9,9 @@ Where I code: [GitGud](https://gitgud.io/ndpm13/) | [Github](https://github.ch-n
 
 Stuff I'm working on:
 
+- [SMART DZ:](/#) ...
 - [Noid Linux:](https://noid-linux.github.io) A Void Linux spin with custom XBPS repo and familiar package manager.
+- [Rhazes EMR:](https://git.ch-naseem.com/RhazesEMR) Modern and User-Friendly Electronic Medical Record.
 
 #### Contact
 
