@@ -5,7 +5,7 @@ description: "Naz's webpage"
 # Header Configuration
 avatar: "img/profile-picture.jpg"
 # favicon
-favicon: "icons/favicon.ico"
+favicon: "icons/favicon.svg"
 # disqus is a comment system. see https://disqus.com
 disqusShortname: ""
 emoji:
