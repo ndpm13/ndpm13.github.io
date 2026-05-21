@@ -1,0 +1,9 @@
+{
+	"subject": "acct:ndpm13@ch-naseem.com",
+	"links": [
+		{
+			"rel": "http://openid.net/specs/connect/1.0/issuer",
+			"href": "https://keycloak.ch-naseem.com/realms/sso"
+		}
+	]
+}
