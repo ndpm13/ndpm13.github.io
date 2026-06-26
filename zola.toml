@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://ch-naseem.com"
 
+title = "Naz's webpage"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -8,9 +10,21 @@ compile_sass = true
 build_search_index = false
 
 [markdown]
+smart_punctuation = true
 
 [markdown.highlighting]
 theme = "gruvbox-dark-medium"
 
 [extra]
 # Put all your custom variables here
+
+menu = [
+  { name = "HOME", url = "/" },
+  { name = "ABOUTME", url = "/about" },
+  { name = "RESUME ", url = "/resume.pdf" },
+]
+
+social = [
+  { name = "Linkedin ", url = "https://linkedin.ch-naseem.com/" },
+  { name = "Fediverse ", url = "https://gts.ch-naseem.com/" },
+]

@@ -1,0 +1,15 @@
+<div>
+	<span> © 2024 - 2026 — </span>
+	<a href="{{config.base_url}}">{{ config.title }}</a>
+
+	<span>Powered by </span>
+	<a href="https://www.getzola.org/">Zola </a>
+</div>
+
+<ul>
+	{% for item in config.extra.social %}
+	<li>
+		<a href="{{ item.url }}">{{ item.name }}</a>
+	</li>
+	{% endfor %}
+</ul>
