@@ -1,0 +1,7 @@
+<ul>
+	{% for item in config.extra.menu %}
+	<li>
+		<a href="{{ item.url }}">{{ item.name }}</a>
+	</li>
+	{% endfor %}
+</ul>

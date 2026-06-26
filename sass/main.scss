@@ -1,0 +1,26 @@
+@import "gruvbox";
+@import "fonts";
+
+@import "components/footer";
+@import "components/header";
+
+body {
+	font-family: "CaskaydiaCove";
+	font-size: 1rem;
+	line-height: calc(1.5 / 1);
+	justify-self: center;
+	margin: 0rem 13rem 0rem 13rem;
+
+	@extend .bg-dark-0;
+	@extend .text-light-1;
+}
+
+a {
+	font-weight: bold;
+
+	@extend .text-blue-bright;
+
+	&:hover {
+		@extend .text-blue;
+	}
+}

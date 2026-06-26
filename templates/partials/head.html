@@ -1,0 +1,17 @@
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="/favicon.ico">
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+	<title>
+		{% if current_path == "/" %}
+			{{ config.title }}
+		{% else %}
+			{{ section.title }} | {{ config.title }}
+		{% endif %}
+	</title>
+
+	{% include "partials/head/css.html" %}
+	{% include "partials/head/js.html" %}
+</head>
